@@ -1,7 +1,0 @@
-This is a Big data class and it is a, combination of machine learning and, Big data analytics This is a sample file.
-This is a Big data class and it is a combination, of machine learning and Big data analytics This is a sample file
-This is a Big data class and it. is a combination of machine learning and Big data analytics This is a sample file
-
-This is another line.
-This is another line.
-This is another line.
