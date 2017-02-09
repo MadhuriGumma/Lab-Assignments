@@ -19,9 +19,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Created by Naga on 24-01-2017.
- */
 public class KeyFrameDetection {
     static Video<MBFImage> video;
     //    VideoDisplay<MBFImage> display = VideoDisplay.createVideoDisplay(video);
@@ -29,14 +26,13 @@ public class KeyFrameDetection {
     static List<Long> timeStamp = new ArrayList<Long>();
     static List<Double> mainPoints = new ArrayList<Double>();
     public static void main(String args[]){
-        String path = "input/YOULionAboutToJump.mkv";
+        String path = "input/sample.mkv";
         Frames(path);
         MainFrames();
     }
 
     public static void Frames(String path){
         video = new XuggleVideo(new File(path));
-//        VideoDisplay<MBFImage> display = VideoDisplay.createVideoDisplay(video);
         int j=0;
         for (MBFImage mbfImage : video) {
             BufferedImage bufferedFrame = ImageUtilities.createBufferedImageForDisplay(mbfImage);
