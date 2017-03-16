@@ -10,11 +10,11 @@ rnd = np.random
 
 data = pandas.read_csv("WWWusage.csv", header=0,delimiter=',')
 rnd_indices = 100
-traindata = np.array(list(data["time"][:rnd_indices]))
-traindata2 = np.array(list(data["WWWusage"][:rnd_indices]))
+traindata_time = np.array(list(data["time"][:rnd_indices]))
+traindata2_internetusage = np.array(list(data["WWWusage"][:rnd_indices]))
 
-testdata = np.array(list(data["time"][rnd_indices:]))
-testdata2 = np.array(list(data["WWWusage"][rnd_indices:]))
+testdata_time = np.array(list(data["time"][rnd_indices:]))
+testdata2_internetusage = np.array(list(data["WWWusage"][rnd_indices:]))
 
 
 Xx = tf.placeholder("float")
