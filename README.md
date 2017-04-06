@@ -13,3 +13,5 @@ https://github.com/MadhuriGumma/Lab-Assignments/wiki/Lab-7-Description - Descrip
 https://github.com/MadhuriGumma/Lab-Assignments/wiki/Lab-8-description - Description of Lab 8
 
 https://github.com/MadhuriGumma/Lab-Assignments/wiki/Lab-9-submission - Description of Lab 9
+
+https://github.com/MadhuriGumma/Lab-Assignments/wiki/Lab-10-Desription: - Description of Lab 10
