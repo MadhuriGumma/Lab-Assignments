@@ -1,0 +1,12 @@
+stairs
+water
+rocks
+vehicles
+crossing
+cycles
+female
+electronics
+computers
+male
+road
+sidewalk
